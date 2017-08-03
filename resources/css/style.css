@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  background-color: #ffffff;
+  color: #090b18;
+  text-align: center;
+
+}
+
+
+/*
+  ========================================
+  Container/Section Styles
+  ========================================
+*/
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header.brand {
+  background: #ffffff url("../images/the-flatiron-building.png") no-repeat left top;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 20px;
+}
+
+section.diny {
+  background: #ffffff url("../images/the-flatiron-building.png") no-repeat left top;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/*
+  ========================================
+  Typography Styles
+  ========================================
+*/
+
+h1.brand-heading {
+  font: 4.38em bold Helvetica, sans-serif;
+  padding: 40px 0 22px 0;
+  color: #ffffff;
+}
+
+h2 {
+  font: 2em bold Helvetica, sans-serif;
+  padding: 60px 0 22px 0;
+  color: #090b18;
+}
+
+h3 {
+  font: 1.44em bold Helvetica, sans-serif;
+  color: #090b18;
+}
+
+header.design h3 {
+  font: 1.44em bold Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 22px;
+}
+.process p.steps {
+  font-size: 0.88em
+}
+
+/*
+  ========================================
+  Navigation Styles
+  ========================================
+*/
+
+header .main-nav ul li a {
+  color: #ffffff;
+  font: 1.13em Helvetica, sans-serif;
+}
+
+footer a {
+  display: inline-block;
+  color: #ffffff;
+  font: 1.13em Helvetica, sans-serif;
+  text-decoration: none;
+  padding-right: 10px;
+}
+/*
+  ========================================
+  Footer Styles
+  ========================================
+*/
+
+footer {
+  background-color: dimgray;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 0.5em;
+}
+footer p span {
+  font-size: 0.69em;
+}
+
+footer a.btn-nav {
+  color: #ffffff;
+  font-size: 1.13em;
+  text-decoration: underline;
+  padding: 0.5em;
+
+}
